@@ -1,9 +1,9 @@
 a, b = map(int, input().split())
+n= a
 
-
-while a>=b:
-    print(a, end=' ')
-    a -= 1
+while n>=b:
+    print(n, end=' ')
+    n -= 1
 
 if b>a:
     while b>=a:
