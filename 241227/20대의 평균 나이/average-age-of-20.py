@@ -6,5 +6,7 @@ while True:
         break
     sum += n
     cnt += 1
-
-print(f"{sum/cnt:.2f}")
+if sum == 0:
+    print(0)
+else:
+    print(f"{sum/cnt:.2f}")
