@@ -4,7 +4,7 @@ for i in range(len(arr)):
     if arr[i] == 0:
         ans = i
     else:
-        ans = len(arr)-1
+        ans = len(arr)
     
 for j in range(ans-1,-1,-1):
     print(arr[j], end=' ')
