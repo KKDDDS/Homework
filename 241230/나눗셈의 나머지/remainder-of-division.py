@@ -1,7 +1,7 @@
 a, b = map(int, input().split())
 arr = [a]
 
-rst = [0]*4
+rst = [0]*b
 for i in arr:
     if i>1:
         k = i%b
