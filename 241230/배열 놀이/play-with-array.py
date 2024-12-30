@@ -8,14 +8,10 @@ for i in range(q):
         print(arr[cnt-1])
 
     elif ans[0] == 2:
-        for num in arr:
-            if ans[1] == num:
-                x = arr.index(num)
-        if x !=0:
-            print(x+1)
-        else:
-            print(0)
-        x=0
+        idx = -1
+        if ans[1] in arr:
+            idx = arr.index(ans[1])
+        print(idx+1)
     
     else:
         for j in range(ans[1]-1, ans[2]):
