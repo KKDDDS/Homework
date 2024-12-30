@@ -1,6 +1,8 @@
-a = input().split()
-b = input().split()
+a = input()
+b = input()
 for elem in a:
-    print(elem, end='')
+    if elem !=' ':
+        print(elem, end='')
 for s in b:
-    print(s, end='')
+    if s !=' ':
+        print(s, end='')
