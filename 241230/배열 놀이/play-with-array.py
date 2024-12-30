@@ -15,6 +15,7 @@ for i in range(q):
             print(x+1)
         else:
             print(0)
+        x=0
     
     else:
         for j in range(ans[1]-1, ans[2]):
