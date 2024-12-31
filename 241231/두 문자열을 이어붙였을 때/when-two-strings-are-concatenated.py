@@ -1,14 +1,11 @@
-A = input()
-B = input()
+a = input()
+b = input()
 
-T = True
+c = a + b
 
-for i in range(2):
-    if A[i] != B[i]:
-        T = False
+d = b + a
 
-if T ==True:
+if c == d:
     print("true")
-
 else:
     print("false")
