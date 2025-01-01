@@ -1,4 +1,4 @@
-a = list(map(str, input().split(".")))
+a = list(input())
 
 for elem in a:
     if elem.isalpha():
