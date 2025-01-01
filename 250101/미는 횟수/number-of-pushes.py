@@ -1,14 +1,14 @@
 A = input()
 B = input()
 
-ans = True
 cnt = 0
 
-while ans:
+for i in range(len(A)):
     if A ==B:
-        ans = False
+        print(cnt)
+        break
     else:
         A = A[-1]+A[:-1]
         cnt += 1
-
-print(cnt)
+if A != B:
+    print(-1)
