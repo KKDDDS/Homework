@@ -3,10 +3,9 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    double N;
-    cin >> N;
-    cout << fixed;
-    cout.precision(2);
-    cout << N;
+    int a = 1;
+    int b = 2;
+    char c = 'C';
+    cout << a << "->" << b << "->" << c;
     return 0;
 }
