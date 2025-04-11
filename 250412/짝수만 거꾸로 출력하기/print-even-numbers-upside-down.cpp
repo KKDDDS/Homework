@@ -5,7 +5,7 @@ int main() {
     // Please write your code here.
     int N;
     cin >> N;
-    int a[6];
+    int a[N];
     for(int i=0;i<N;i++){
         cin >> a[i];
     }
