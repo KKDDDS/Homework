@@ -8,10 +8,10 @@ int main() {
     int a = A.length();
     int b = B.length();
     if(a>b){
-        cout << "Coding " << a;
+        cout << A << " "<< a;
     }
     else if(b>a){
-        cout << "Coding " << b;
+        cout << B <<" " <<  b;
     }
     else{
         cout << "same";
