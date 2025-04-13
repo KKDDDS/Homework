@@ -9,8 +9,8 @@ bool check2(int x){
 bool check1(int a)
 {
     int b, c, d, e, f, g, h, z;
-    c=a%10;
-    b=(a/10)%10;
+    b=a%10;
+    c=(a/10)%10;
     d=(a/100)%10;
     e=(a/1000)%10;
     f=(a/10000)%10;
