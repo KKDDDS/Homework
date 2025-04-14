@@ -18,7 +18,7 @@ int main() {
         }
     }
     if(M>12){
-        cout << "No"
+        cout << "No";
         return 0;
     }
 
