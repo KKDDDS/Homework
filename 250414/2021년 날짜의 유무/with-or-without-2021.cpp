@@ -1,4 +1,5 @@
 #include <iostream>
+#include <array>
 
 using namespace std;
 
@@ -8,15 +9,19 @@ int main() {
     cin >> M >> D;
 
     // Please write your code here.
-    int arr[7] = {1,3,5,7,8,10,12};
+    array<int, 7> arr = {1,3,5,7,8,10,12};
     bool is_in = false;
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < arr.size(); i++) {
         if (arr[i] == M) {
             is_in = true;
             break;
         }
     }
-    if(is_in){
+    if(M>12){
+        continue;
+    }
+
+    else if(is_in){
         if(D<=31){
             cout << "Yes";
             return 0;
