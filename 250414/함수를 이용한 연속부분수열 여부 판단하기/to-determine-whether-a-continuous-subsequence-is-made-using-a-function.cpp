@@ -26,10 +26,10 @@ int main() {
                     break;
                 }
             }
-            if(right){
-                cout << "Yes";
-                return 0;
-            }
+        if(right){
+            cout << "Yes";
+            return 0;
+        }
         }
     }
     cout << "No";
