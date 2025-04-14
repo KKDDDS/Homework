@@ -18,7 +18,8 @@ int main() {
         }
     }
     if(M>12){
-        continue;
+        cout << "No"
+        return 0;
     }
 
     else if(is_in){
