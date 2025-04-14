@@ -14,7 +14,7 @@ int main() {
 
     // Please write your code here.
     bool right = false;
-    for(int i=0;i<n1-n2;i++){
+    for(int i=0;i<=n1-n2;i++){
         if(a[i]==b[0]){
             for(int j=0;j<n2;j++){
                 if(a[i+j]==b[j]){
